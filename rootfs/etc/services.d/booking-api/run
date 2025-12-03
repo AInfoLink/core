@@ -1,0 +1,3 @@
+#!/usr/bin/with-contenv sh
+# Start FastAPI as a supervised long-run service
+exec uvicorn booking_data:app --app-dir /config/python --host 0.0.0.0 --port 8000
